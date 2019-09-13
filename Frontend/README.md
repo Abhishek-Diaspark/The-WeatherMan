@@ -134,8 +134,8 @@ docker-compose up
 Refer to https://angular.io/guide/quickstart to get an understanding of how angular 6 works
 
 ## Contributors ##
-[Abhishek Sisodiya](https://www.linkedin.com/in/abhisheksisodiya01/) | 
-[Sakshi Badaya](https://www.linkedin.com/in/sakshi-badaya-70bb74137/)
+[Abhishek Anand](https://www.linkedin.com/in/abhisheksisodiya01/) | 
+[Akhil Shrivastava](https://www.linkedin.com/in/sakshi-badaya-70bb74137/)
 
 ## License ##
 This project is licensed under the terms of the MIT license.
