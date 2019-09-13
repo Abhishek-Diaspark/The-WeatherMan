@@ -82,7 +82,7 @@ The npm start command builds (compiles TypeScript and copies assets) the applica
 ## Application Structure ##
 We have tried to follow the basic ideology while creating the file structure and the structure look as follows :
 
-<img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Frontend/docs/images/application-structure.png" alt="project structure"></a>
+<img src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Frontend/docs/images/application-structure.png" alt="project structure"></a>
 
 ## UI Design ##
 
@@ -92,11 +92,11 @@ This application is user friendly as all the features are on the single page i.e
 3- The key feature of the app that is THE WEATHERMAN ANALYSIS section which shows the aggregate weather forecast report based on the analysis made out of the data fetched by the 4 service providers and analysis on the last year data of that particular day. And on the basis of the forecast, background will be changed likewise.
 
 <p align="center">
-<img width="600" src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Frontend/docs/images/application-1.png">
+<img width="600" src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Frontend/docs/images/application-1.png">
 </p>
 
 <p align="center">
-<img width="600" src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Frontend/docs/images/application-2.png">
+<img width="600" src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Frontend/docs/images/application-2.png">
 </p>
 
 ## Running the server in Docker Container ##
