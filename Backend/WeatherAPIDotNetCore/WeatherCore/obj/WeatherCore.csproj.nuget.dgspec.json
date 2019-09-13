@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherCore\\WeatherCore.csproj": {}
+  },
+  "projects": {
+    "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherCore\\WeatherCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherCore\\WeatherCore.csproj",
+        "projectName": "WeatherCore",
+        "projectPath": "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherCore\\WeatherCore.csproj",
+        "packagesPath": "C:\\Users\\Akhil.Shrivastava\\.nuget\\packages\\",
+        "outputPath": "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Akhil.Shrivastava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherData\\WeatherData.csproj": {
+                "projectPath": "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherData\\WeatherData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherData\\WeatherData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherData\\WeatherData.csproj",
+        "projectName": "WeatherData",
+        "projectPath": "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherData\\WeatherData.csproj",
+        "packagesPath": "C:\\Users\\Akhil.Shrivastava\\.nuget\\packages\\",
+        "outputPath": "D:\\COE12Sept\\WeatherAPI\\backend\\WeatherData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Akhil.Shrivastava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
