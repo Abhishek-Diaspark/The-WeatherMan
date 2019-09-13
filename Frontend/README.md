@@ -1,177 +1,141 @@
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Backend/docs/images/logo.png" alt="TheWeatherMan"></a>
+  <a><img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Frontend/docs/images/angular.png" alt="Angular"></a>
   <br>
-  The WeatherMan Application (Backend using DotNet Core)
+The WeatherMan(Angular 6)
   <br>
 </h1>
 
-<p align="center">
-    <a alt="DotNet Core 2.2">
-        <img src="https://img.shields.io/badge/DotNet Core-v2.2-orange.svg" />
-    </a>
-    <a alt="Cosmos DB">
-        <img src="https://img.shields.io/badge/Cosmos DB-v2.1.3-brightgreen.svg" />
-    </a> 
-    <a alt="Redis Cache">
-        <img src="https://img.shields.io/badge/Redis Cache-v4.0-brightgreen.svg" />
-    </a> 
-    <a alt="Docker">
-        <img src="https://img.shields.io/badge/Docker-v18-yellowgreen.svg" />
-    </a>
-    <a alt="Dependencies">
-        <img src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg" />
-    </a>
-    <a alt="Contributions">
-        <img src="https://img.shields.io/badge/contributions-welcome-orange.svg" />
-    </a>
-    <a alt="License">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg" />
-    </a>
-</p>
-
 ## Table of Contents ##
-1. [DotNet Core](#DotNet-Core)
+1. [Angular 6](#Angular-6)
 2. [Application](#Application)
-3. [Database Schema](#Database-Schema)
-4. [Technology](#Technology)
+3. [Live Application url](#Live-Application-url)
+4. [Prerequites to Run the Application](#Prerequites-to-Run-the-Application)
 5. [Application Structure](#Application-Structure)
-6. [Run Locally](#Running-the-server-locally)
+6. [UI Design](#UI-Design)
 7. [Run Insider Docker](#Running-the-server-in-Docker-Container)
-8. [API Documentation](#API-Documentation)
+8. [Angular 6 References](#Angular-6-References)
 9. [Contributors](#Contributors)
 10. [License](#License)
 
-## DotNet Core ##
-DotNET Core is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems. It is an open source, cross platform successor to .NET Framework. The project is primarily developed by Microsoft and released under the MIT License.
 
-**Cross-platform & container support** : This simply means that dotnet core is able to be used on different types of computers or with different software packages.
-Containers are a type of software that can virtually package and isolate applications for deployment. Containers can share access to an operating system (OS) kernel without the traditional need for virtual machines (VMs).
+## Angular 6 ##
+Angular 6 is a right choice to build web Single Page Applications. It helps to publish web component which is used in an HTML page. Angular 6 was released on May 4, 2018. It includes the Component Development Kit (CDK), Angular CLI (Command Line Interface), and Angular Material Package Update. JavaScript was initially used by designers to develop the image, but now it is used for front-end development.
+It has several features and specifications, that will definitely benefit the app development industry at large. Faster, Smaller and Easier is the main motto of Angular 6 functions. This update is helpful for mobile and web app development.Angular 6 has given more emphasis on the toolchain instead of the underlying framework, which indeed makes it simpler and faster to use the Angular. 
 
-**Asynchronous via async/await** : This implies that that a process operates independently of other processes, whereas synchronous operation means that the process runs only as a result of some other process being completed or handing off operation.
+**Component Development Kit (CDK)**
+CDK was released in Dec 2017. With this, a user can build own library for UI components. It also supports for Responsive Web Design.
 
-**Unified MVC & Web API frameworks** : MVC is an application design model comprised of three interconnected parts. They include the model (data), the view (user interface), and the controller (processes that handle input).
+**Angular Command Line Interface (CLI)**
+CLI helps to update code and dependencies, it is also equipped for ng-update command. ng-add helps to append the application features in CLI. Each and every command helps developers to prefer ng-package for different libraries using Bazel tool.
 
-Web API is an extensible framework for building HTTP based services that can be accessed in different applications on different platforms such as web, windows, mobile etc. It works more or less the same way as ASP.NET MVC web application except that it sends data as a response instead of html view.
+**Angular Material Design Library**
+This design library helps to visualize tree structures in hierarchical order.
 
+**Bazel Compiler**
+It is almost used in all software such as optimized dependency, distributed caching, parallel execution, mobile application is helpful to build a web in a short duration. Bazel Compiler includes 300+ apps which are written in Angular.
+
+**Closure Compiler**
+Bundling optimizer which allows you to build JavaScript modules. At the same time, it helps to generate minimum bundles. Upcoming releases of Angular framework use toolchain for app development.
 
 ## Application ##
-What’s the weather? What will be tomorrow’s weather? These question are the ones which maximum people likes to know the answer on the daily basis and thus people wants to know the most accurate weather forecast. Their are many applications which gives the weather report and forecast but on which website user should rely on because every application shows different different data which makes user perplexed.
+The idea of the application is to design a WeatherMan Analysis which shows approximate weather forecast of 5 days ,on the basis of the analysis done on the data from four well known and authorized weather service providers, for the place which user selects.It also compares and check the data of last year on that particular date and thus makes it analysis more accurate.The aim of the application is to give the most accurate weather information out of all the service providers.
+This application is unique in every aspect whether the idea of its creation or the technologies used to build it. We have used Angular 6 as frontend technology along with two backend technologies-
 
-The WeatherMan Analysis shows approximate weather forecast of 5 days, on the basis of the analysis done on the data from four well known and authorized weather service providers, for the place which user selects and also weatherman checks and compares the last year data of that particular day and thus apply its analysis and predict the forecast.These two are the major factor of the weatherman analysis .The aim of the application is to give the most accurate weather information out of all the service providers.  :
+1. Spring Boot 2.0 with MySQL
+2. Dotnet Core 2.2 with cosmosDB
 
-## Database Schema ##
-The current schema looks as follows:
+We have used two backend technologies so that user can choose the one in which he/she is more comfortable working with. The aim of the application is to give the most accurate weather information out of all the service providers.
+This application is unique in every aspect whether the idea of its creation or the technologies used to build it. It is very well justified in every phase. The technologies used are the ones which are on the boom in the techno-world right now and thus adds starts to this application.
 
-<img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Backend/docs/images/db-schema.jpg" alt="DotNet Core"></a>
+## Live Application url ##
 
-- The authentication and authorization is governed by _User_ collection. (User model)
-- The _Provider_ collection keeps the details of all the service providers which we are using. The 4 providers will also get   automatically added on app start. (Provider model)
-- The _Vote_ collection keeps users' favorite option with date of voting and 2 foreign keys provider.id & user.id. (Vote model)
+http://52.165.145.32
+This is the link where the app is deployed.
 
-## Technology ##
-Following libraries were used during the development of this starter kit :
+## Prerequites to Run the Application ##
 
-- **DotNet Core 2.2** - Server side framework
-- **Docker** - Containerizing framework
-- **Cosmos DB** - Database 
-- **Swagger** - API documentation
-- **JWT** - Authentication mechanism for REST APIs
-- **Redis** - Caching data to save hits on Weather api's
+** Install NodeJS **
+Refer https://nodejs.org/en/ to install NodeJS
+
+** Install Angular CLI **
+npm install -g @angular/cli
+Refer https://cli.angular.io/ to know more about angular CLI
+
+** Clone the repo **
+
+```
+git clone https://github.com/
+cd 
+```
+
+** Install npm packages **
+Install the npm packages described in the package.json and verify that it works:
+
+```
+npm install
+npm start
+```
+
+The npm start command builds (compiles TypeScript and copies assets) the application into dist/, watches for changes to the source files, and runs lite-server on port 4200.
 
 ## Application Structure ##
-DotNET Core is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems.DotNet core is provides the command line, which support all major platforms like Windows, Mac, and Linux.it provide variuos project template and ideology for faster and smooth app development.I have tried to follow the same ideology while creating the project structure, at first it might seem like overwhelming, but do believe me once you start writing your pieces the structure will help you immensely by saving your time and thinking about questions which are already answered. The structure look as follows :
+We have tried to follow the basic ideology while creating the file structure and the structure look as follows :
 
-<img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Backend/docs/images/project-structure.png" alt="project structure"></a>
+<img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Frontend/docs/images/application-structure.png" alt="project structure"></a>
 
-**_Models_**
+## UI Design ##
 
-The various models of the application are organized under the **WeathrData** projectinside WeatherApiDotNetCore solution.In our application we are using model to repersent shape of the data and business logic of our application. 
+This application is user friendly as all the features are on the single page i.e home page which comprises of -
+1- Google maps showing locations based on the user search and the recently searched feature is also provided.
+2- Different service providers showing their respective weather data of the place searched by the user.
+3- The key feature of the app that is THE WEATHERMAN ANALYSIS section which shows the aggregate weather forecast report based on the analysis made out of the data fetched by the 4 service providers and analysis on the last year data of that particular day. And on the basis of the forecast, background will be changed likewise.
 
-**_Data Access layer_**
+<p align="center">
+<img width="600" src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Frontend/docs/images/application-1.png">
+</p>
 
-The data access layer (DAL) are present in the **_WeatherData_** project inside WeatherApiDotNetCore solution.A data access layer (DAL)  is a layer of a computer program which provides simplified access to data stored in persistent storage of some kind, such as database.In our program we have using DAL(Data access layer) to fetch weather data from various and weather reports provider.
-
-**_Security_**
-
-In our web application we have used JWT  securely transmitting information between parties as a JSON object.
-
-**_Controllers_**
-
-Last, but the most important part is the controller layer. It binds everything together right from the moment a request is intercepted till the response is prepared and sent back. The controller layer is present in the **_WeatherAPI_** project of WeatherAPIDotNetCore solution, the best practices suggest that we keep this layer versioned to support multiple versions of the application and the same practice is applied here. 
-
-**Service layer**
-
-A service layer is an additional layer in an ASP.NET MVC application that mediates communication between a controller and repository layer. The service layer contains business logic. In particular, it contains validation logic as well.
-
-## Running the server locally ##
-To be able to run this DotNet Core api you will need to first build it. To build and package a DotNet Core app into a single executable file dotnet core v2.2 sdk must be install on our local machine, use the below command. You will need to run it from the project folder which contain WeatherApi.csproj.
-
-download DotNet SDK 2.2 from below link
-
-https://dotnet.microsoft.com/download 
-
-```
-dotnet restore
-```
-Restores the dependencies and tools of a project.
-
-```
-dotnet build
-```
-Builds a project and all of its dependencies.
-
-```
-dotnet run
-```
-Runs source code without any explicit compile or launch commands.
-
-You can follow any/all of the above commands, or simply use the run configuration provided by your favorite IDE and run/debug the app from there for development purposes. Once the server is setup you should be able to access the admin interface at the following URL :
-
-http://localhost:5000
-
-Some of the important api endpoints are as follows :
-
-- http://localhost:5000/register (HTTP:POST)
-- http://localhost:5000/authenticate (HTTP:POST)
-- http://localhost:5000/averageprovider?lat=22.7196&longi=75.8577 (HTTP:GET)
-- http://localhost:5000/getweather/weatherbit?lat=22.7103637&longi=75.8417637 (HTTP:GET)
-- http://localhost:5000/summaryprovider (HTTP:GET)
+<p align="center">
+<img width="600" src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Frontend/docs/images/application-2.png">
+</p>
 
 ## Running the server in Docker Container ##
 ##### Docker #####
+
+Running the server in Docker Container
+Docker is a platform for developers to develop, deploy, and run applications with containers.A container is launched by running an image. An image is an executable package that includes everything needed to run an application — the code, a runtime, libraries, environment variables, and configuration files.
+A container is a runtime instance of an image — what the image becomes in memory when executed (that is, an image with state, or a user process). You can see a list of your running containers with the command, docker ps.
+
 Command to build the container :
 
 ```
-docker build -t dotnet/theweatherman .
+docker build -t TheWeatherMan .
 ```
 
 Command to run the container :
 
 ```
-docker run -p 5000:80 dotnet/theweatherman
+docker run -p 8080:8080 TheWeatherMan
 ```
 
-Please **note** when you build the container image and if Azure Cosmos DB is running locally on your system, you will need to   set Cosmos DB connection string to Enviroment variable as  COSMOS_DATABASE_NAME={COSMOS_DATABASE_NAME}  to be able to connect to the database from within the container.
+##### Docker Compose #####
+Another alternative to run the application is to use the docker-compose.yml file and utility. To build the application using docker-compose simply execute the following command :
+```
+docker-compose build
+```
 
-## API Documentation ##
-Its as important to document(as is the development) and make your APIs available in a readable manner for frontend teams or external consumers. The tool for API documentation used in this starter kit is Swagger2, you can open the same inside a browser at the following url -
+And to run the application, please execute the following command :
+```
+docker-compose up
+```
 
-http://localhost:5000/swagger/index.html
 
-You can use the User spec to execute the login api for generating the Bearer token. The token then should be applied in the "Authorize" popup which will by default apply it to all secured apis (get and post both).
-
-<p align="center">
-    <b>Swagger</b><br>
-    <br>
-    <img width="600" src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Backend/docs/images/swagger.jpg">
-</p>
-
-The configuration of Swagger is being taken care of by class SwaggerConfig. I have defined two specs there with the help of "api()" methods. Since the login part is by default taken care of by Spring Security we don't get to expose its apis implicitly as the rest of the apis defined in the system.
+## Angular 6 References ##
+Refer to https://angular.io/guide/quickstart to get an understanding of how angular 6 works
 
 ## Contributors ##
-[Abhishek Anand](https://www.linkedin.com/in/abhishek-anand-94a05613a) |
-[Akhil Shrivastava](https://www.linkedin.com/in/akhil-shrivastava-18931814b)
+[Abhishek Sisodiya](https://www.linkedin.com/in/abhisheksisodiya01/) | 
+[Sakshi Badaya](https://www.linkedin.com/in/sakshi-badaya-70bb74137/)
 
 ## License ##
 This project is licensed under the terms of the MIT license.
