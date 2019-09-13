@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Backend/docs/images/logo.png" alt="TheWeatherMan"></a>
+  <a><img src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Backend/WeatherAPIDotNetCore/docs/images/logo.png" alt="TheWeatherMan"></a>
   <br>
   The WeatherMan Application (Backend using DotNet Core)
   <br>
@@ -63,7 +63,7 @@ The WeatherMan Analysis shows approximate weather forecast of 5 days, on the bas
 ## Database Schema ##
 The current schema looks as follows:
 
-<img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Backend/docs/images/db-schema.jpg" alt="DotNet Core"></a>
+<img src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Backend/WeatherAPIDotNetCore/docs/images/db-schema.jpg" alt="DotNet Core"></a>
 
 - The authentication and authorization is governed by _User_ collection. (User model)
 - The _Provider_ collection keeps the details of all the service providers which we are using. The 4 providers will also get   automatically added on app start. (Provider model)
@@ -82,7 +82,7 @@ Following libraries were used during the development of this starter kit :
 ## Application Structure ##
 DotNET Core is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems.DotNet core is provides the command line, which support all major platforms like Windows, Mac, and Linux.it provide variuos project template and ideology for faster and smooth app development.I have tried to follow the same ideology while creating the project structure, at first it might seem like overwhelming, but do believe me once you start writing your pieces the structure will help you immensely by saving your time and thinking about questions which are already answered. The structure look as follows :
 
-<img src="https://github.com/Abhishek9166919669/final/blob/master/theweatherman-master/project-structure.png" alt="project structure"></a>
+<img src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Backend/WeatherAPIDotNetCore/docs/images/project-structure.png" alt="project structure"></a>
 
 **_Models_**
 
@@ -164,7 +164,7 @@ You can use the User spec to execute the login api for generating the Bearer tok
 <p align="center">
     <b>Swagger</b><br>
     <br>
-    <img width="600" src="https://github.com/Abhishek9166919669/final/blob/master/theweatherman-master/swagger.png">
+    <img width="600" src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Backend/WeatherAPIDotNetCore/docs/images/swagger.png">
 </p>
 
 We are enabling middleware for Swagger as a JSON endpoint in config() method of StarTup.cs file.
