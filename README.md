@@ -58,11 +58,11 @@ Redis can be used to cache data that a web-server needs. Redis gives a structure
 
 ## Projects Link ##
 #####  #####
-The link for backend which is on Spring Boot using MySql is:
-[Backend](https://github.com/abhishek-sisodiya/theweatherman/tree/master/Backend)
+The link for backend which is on DotNet Core v2.2:
+[Backend](https://github.com/Abhishek-Diaspark/The-WeatherMan/tree/master/Backend)
 #####  #####
 The link for frontend which is on Angular is: 
-[Frontend](https://github.com/abhishek-sisodiya/theweatherman/tree/master/Frontend)
+[Frontend](https://github.com/Abhishek-Diaspark/The-WeatherMan/tree/master/Frontend)
 
 ## Running the server through Docker Compose ##
 
@@ -72,7 +72,7 @@ $ docker-compose build
 ##### Start the server in daemon thread #####
 $ docker-compose up -d
 
-<img src="https://miro.medium.com/max/1920/1*s815EK0zFngv1JAuK2q5MQ.png" alt="spring boot">
+<img src="https://miro.medium.com/max/1920/1*s815EK0zFngv1JAuK2q5MQ.png" alt="DotNet Core">
 
 ##### Stop the server #####
 $ docker-compose down
