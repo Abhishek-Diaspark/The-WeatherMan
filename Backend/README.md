@@ -10,7 +10,7 @@
     <a alt="DotNet Core 2.2">
         <img src="https://img.shields.io/badge/DotNet Core-v2.2-orange.svg" />
     </a>
-    <a alt="Cosmos DB">
+    <a alt="CosmosDB">
         <img src="https://img.shields.io/badge/Cosmos DB-v2.1.3-brightgreen.svg" />
     </a> 
     <a alt="Redis Cache">
@@ -74,7 +74,7 @@ Following libraries were used during the development of this starter kit :
 
 - **DotNet Core 2.2** - Server side framework
 - **Docker** - Containerizing framework
-- **Cosmos DB** - Database 
+- **CosmosDB(MongoAPI)** - Database 
 - **Swagger** - API documentation
 - **JWT** - Authentication mechanism for REST APIs
 - **Redis** - Caching data to save hits on Weather api's
@@ -135,7 +135,6 @@ Some of the important api endpoints are as follows :
 - http://localhost:5000/register (HTTP:POST)
 - http://localhost:5000/authenticate (HTTP:POST)
 - http://localhost:5000/averageprovider?lat=22.7196&longi=75.8577 (HTTP:GET)
-- http://localhost:5000/getweather/weatherbit?lat=22.7103637&longi=75.8417637 (HTTP:GET)
 - http://localhost:5000/summaryprovider (HTTP:GET)
 
 ## Running the server in Docker Container ##
