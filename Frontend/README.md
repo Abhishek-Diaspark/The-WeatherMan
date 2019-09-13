@@ -43,7 +43,7 @@ The idea of the application is to design a WeatherMan Analysis which shows appro
 This application is unique in every aspect whether the idea of its creation or the technologies used to build it. We have used Angular 6 as frontend technology along with two backend technologies-
 
 1. Spring Boot 2.0 with MySQL
-2. Dotnet Core 2.2 with cosmosDB
+2. Dotnet Core 2.2 with CosmosDB(MongoAPI)
 
 We have used two backend technologies so that user can choose the one in which he/she is more comfortable working with. The aim of the application is to give the most accurate weather information out of all the service providers.
 This application is unique in every aspect whether the idea of its creation or the technologies used to build it. It is very well justified in every phase. The technologies used are the ones which are on the boom in the techno-world right now and thus adds starts to this application.
