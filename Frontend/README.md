@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Frontend/docs/images/angular.png" alt="Angular"></a>
+  <a><img src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Frontend/docs/images/angular.png" alt="Angular"></a>
   <br>
 The WeatherMan(Angular 6)
   <br>
