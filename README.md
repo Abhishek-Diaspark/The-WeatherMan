@@ -11,7 +11,7 @@
         <img src="https://img.shields.io/badge/DotNet%20Core-v2.2-orange.svg" />
     </a>
     <a alt="Cosmos DB">
-        <img src="https://img.shields.io/badge/Cosmos%DB-latest-brightgreen.svg" />
+        <img src="https://img.shields.io/badge/Cosmos%20DB-latest-brightgreen.svg" />
     </a>    
     <a alt="License">
         <img src="https://img.shields.io/badge/Angular-v6-red.svg" />
