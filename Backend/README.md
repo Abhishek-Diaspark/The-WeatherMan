@@ -82,7 +82,7 @@ Following libraries were used during the development of this starter kit :
 ## Application Structure ##
 DotNET Core is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems.DotNet core is provides the command line, which support all major platforms like Windows, Mac, and Linux.it provide variuos project template and ideology for faster and smooth app development.I have tried to follow the same ideology while creating the project structure, at first it might seem like overwhelming, but do believe me once you start writing your pieces the structure will help you immensely by saving your time and thinking about questions which are already answered. The structure look as follows :
 
-<img src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Backend/WeatherAPIDotNetCore/docs/images/project-structure.png" alt="project structure"></a>
+<img src="https://miro.medium.com/max/330/1*_nwVbi3F0UxY-Vnus3tWZA.png" alt="project structure"></a>
 
 **_Models_**
 
