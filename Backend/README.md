@@ -112,7 +112,7 @@ In our web application we have used JWT  securely transmitting information betwe
 
 Last, but the most important part is the controller layer. It binds everything together right from the moment a request is intercepted till the response is prepared and sent back. The controller layer is present in the **_WeatherAPI_** project of WeatherAPIDotNetCore solution, the best practices suggest that we keep this layer versioned to support multiple versions of the application and the same practice is applied here. 
 
-**Service layer**
+**_Service layer_**
 
 A service layer is an additional layer in an ASP.NET MVC application that mediates communication between a controller and repository layer. The service layer contains business logic. In particular, it contains validation logic as well.
 
