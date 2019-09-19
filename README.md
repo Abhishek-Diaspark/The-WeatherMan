@@ -1,17 +1,17 @@
 <h1 align="center">
   <br>
-  <a><img src="https://github.com/abhishek-sisodiya/theweatherman/blob/master/Backend/docs/images/logo.png" alt="spring boot"></a>
+  <a><img src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Backend/WeatherAPIDotNetCore/docs/images/logo.png" alt="DotNet Core"></a>
   <br>
   The WeatherMan Application
   <br>
 </h1>
 
 <p align="center">
-    <a alt="Java">
-        <img src="https://img.shields.io/badge/Java-v1.8-orange.svg" />
+    <a alt="DotNet Core">
+        <img src="https://img.shields.io/badge/DotNet%20Core-v2.2-orange.svg" />
     </a>
-    <a alt="Spring Boot">
-        <img src="https://img.shields.io/badge/Spring%20Boot-v2.1.3-brightgreen.svg" />
+    <a alt="Cosmos DB">
+        <img src="https://img.shields.io/badge/Cosmos%DB-latest-brightgreen.svg" />
     </a>    
     <a alt="License">
         <img src="https://img.shields.io/badge/Angular-v6-red.svg" />
