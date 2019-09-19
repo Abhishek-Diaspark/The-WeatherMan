@@ -86,9 +86,17 @@ DotNET Core is a free and open-source, managed computer software framework for W
 
 ASP.Net core solution contains three projects as:
 
-**_WeatherAPI_** : This project holds the API part which provides a URI's  for other applications to communicate with core project. Thus, all controller related logic lies here.
-**_WeatherCore_** : This is our  intermediate layer and apply our business logic on the data that we get from various resources and supply it to our WeatheAPI project.
- **_WeatherData_** : This is the third and inner most layer of our solution this layer deals with our project's interaction with data base server. It fetches the data and carry it forward to the middle layer.
+**_WeatherAPI_** 
+
+This project holds the API part which provides a URI's  for other applications to communicate with core project. Thus, all controller related logic lies here.
+
+**_WeatherCore_** 
+
+This is our  intermediate layer and apply our business logic on the data that we get from various resources and supply it to our WeatheAPI project.
+
+ **_WeatherData_** 
+ 
+This is the third and inner most layer of our solution this layer deals with our project's interaction with data base server. It fetches the data and carry it forward to the middle layer.
 
 
 **_Models_**
