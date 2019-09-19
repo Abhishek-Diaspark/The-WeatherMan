@@ -72,7 +72,7 @@ $ docker-compose build
 ##### Start the server in daemon thread #####
 $ docker-compose up -d
 
-<img src="https://miro.medium.com/max/1920/1*s815EK0zFngv1JAuK2q5MQ.png" alt="DotNet Core">
+<img src="https://github.com/Abhishek-Diaspark/The-WeatherMan/blob/master/Frontend/docs/images/application-1.png" alt="DotNet Core">
 
 ##### Stop the server #####
 $ docker-compose down
